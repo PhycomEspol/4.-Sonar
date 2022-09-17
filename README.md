@@ -2,7 +2,7 @@
   
 *El proyecto consiste en la elaboración de un sonar para detectar la proximidad de objetos  y prevenir colisiones, siendo una gran iniciativa  que se puede  implementar en los autos  al momento de estacionarse en lugares estrechos. Para ello, se necesitan **leds** y **buzzers** que fucnionan como advertencia a medida que dos objetos se acerquen entre sí, además, un dispositivo LCD que brinde la informacion de la distancia al usuario del vehiculo para que tenga en cuenta al momento de realizar cualquier maniobra.*  
   
-> Materiales y precios:  
+**Materiales y precios:**  
 * 1 Sensor ultrasonido:            $3,50
 * 17 Cables:                       $1,00
 * 3 Resistencias de 220 ohmios:    $0,50
@@ -11,7 +11,8 @@
 * 1 LCD 16x2:                      $7,00
 * 1 arduino mega 2560:             $19,00
 
-
+**Secciones del Proyecto**
+Dentro de la parte fisica hay una unica seccion el cual esta compuesto del conjunto de todos los componentes previamente descritos.  
 Dentro del Codigo Progamado encontramos diferentes secciones las cuales decidimoes separar en 4 funciones:   
 *Funcion 1: Presentación*  
 >void presenta(){  
@@ -32,7 +33,7 @@ Dentro del Codigo Progamado encontramos diferentes secciones las cuales decidimo
   delay(2000);  
   lcd.clear();}  
    
-esat primera función la realizamos una sola vez al momento de inciar el dispositivo, en las primeras lineas del codigo muestra por pantalla(en el LCD) el nombre del grupo mediante lcd.print en la posicion indicada,cosa que logramos con lcd.setCursor, luego realiza una limpieza de la pantalla con lcd.clear y seuido de eso presenta el trabajo a realizar(en este caso sensor ultrasonico), nuevamente realiza otra limpieza de la pantalla e imprime la palabra "cargando".  
+Esta primera función la realizamos una sola vez al momento de inciar el dispositivo, en las primeras lineas del codigo muestra por pantalla(en el LCD) el nombre del grupo mediante lcd.print en la posicion indicada,cosa que logramos con lcd.setCursor, luego realiza una limpieza de la pantalla con lcd.clear y seuido de eso presenta el trabajo a realizar(en este caso sensor ultrasonico), nuevamente realiza otra limpieza de la pantalla e imprime la palabra "cargando".  
   
 *Funcion 2: Cálculo de la distancia a la que se encuentra un objeto* 
 >int calcular_distancia(){  
