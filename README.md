@@ -11,7 +11,7 @@
 * 1 LCD 16x2:                      $7,00
 * 1 arduino mega 2560:             $19,00
 
-**Secciones del Proyecto**
+**Secciones del Proyecto**  
 Dentro de la parte fisica hay una unica seccion el cual esta compuesto del conjunto de todos los componentes previamente descritos.  
 Dentro del Codigo Progamado encontramos diferentes secciones las cuales decidimoes separar en 4 funciones:   
 *Funcion 1: Presentación*  
